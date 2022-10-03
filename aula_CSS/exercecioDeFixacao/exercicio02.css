@@ -31,7 +31,7 @@
   background-color: rgb(110, 114, 104);
   flex: 1 0 400px;
   padding: 20px;
-  height: 828px;
+  height: 100%;
   display: flex;
   justify-content: center;
   gap: 10px;
