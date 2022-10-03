@@ -70,15 +70,20 @@ h4 {
 }
 
 .item img {
-  max-width: 250px;
+  max-width: 240px;
   height: 200px;
   border-radius: 10px;
-
+  margin: auto;
 }
 
 .item {
   width: 260px;
   padding: 10PX;
+  border-radius: 10px;
+}
+
+.item:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.281);
 }
 
 .item1 {
