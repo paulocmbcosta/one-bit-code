@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  flex-basis: 100vh;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.itens div {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 22Px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.itens {
+  background-color: rgb(110, 114, 104);
+  flex: 1 0 400px;
+  padding: 20px;
+  height: 828px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+footer {
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
