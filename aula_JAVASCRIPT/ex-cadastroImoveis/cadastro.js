@@ -1,6 +1,9 @@
 const imoveis = []
 let option = ""
 
+
+
+
 do {
   option = prompt(
     "Imóveis cadastrados: " + imoveis.length + "\n" +
@@ -50,8 +53,9 @@ do {
         alert("Escolha uma opção válida!")  
     }
 
-} while (option !== "3")
-
+    
+  } while (option !== "3")
+  
 
 
 
