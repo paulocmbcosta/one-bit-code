@@ -17,6 +17,10 @@ function trapezio(a, b, c) {
   return areaTrapezio = (a + b) * c / 2
 }
 
+function pi(a) {
+  return valorPi = 3.14 * a ** 2
+}
+
 do {
   option = prompt("Calculadora geométrica. Escolha uma das opções abaixo: \n" +
   "\n1 - Área do triângulo" +
@@ -46,13 +50,16 @@ do {
       alert("O resultado do quadrado é: " + areaLado)
       break
     case "4":
-      let baseMaior = prompt("Digite o valor da base maior:")
-      let baseMenor = prompt("Digite o valor da base menor:")
-      let altura3 = prompt("Digite o valor da altura:")
+      let baseMaior = parseInt(prompt("Digite o valor da base maior:"))
+      let baseMenor = parseInt(prompt("Digite o valor da base menor:"))
+      let altura3 = parseInt(prompt("Digite o valor da altura:"))
       trapezio(baseMaior, baseMenor, altura3)
-      alert("O resultado do quadrado é: " + areaTrapezio)
+      alert("O resultado do trapézio é: " + areaTrapezio)
       break
     case "5":
+      let raio = parseInt(prompt("Digite o valor do raio:"))
+      pi(raio)
+      alert("O valor de PI do número informado é: " + valorPi)
       break
     case "6":
       alert("Encerrando o sistema...")
