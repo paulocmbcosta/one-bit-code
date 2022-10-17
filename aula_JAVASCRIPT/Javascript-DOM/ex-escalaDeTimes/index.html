@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escalação de Times</title>
+</head>
+<body>
+  <h1>Sistema para escalação de times</h1>
+  <hr>
+  <h2>Adicione um jogador</h2>
+  <label for="textPosition">Posição:</label>
+  <input type="text" id="textPosition" value="" placeholder="ex: atacante">
+  <br>
+  <br>
+  <label for="textName">Nome:</label>
+  <input type="text" id="textName" value="" placeholder="ex: João Victor">
+  <br>
+  <br>
+  <label for="textShit">Número da camisa:</label>
+  <input type="text" id="textShit" value="" placeholder="ex: 22">
+  <br>
+  <br>
+  <button onclick="addPlayer()">Adicionar jogador</button>
+  <button onclick="removePlayer()">Remover jogador</button>
+
+  <section id="player-list">
+    <h3>Lista de jogadores escalados</h3>
+  </section>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
